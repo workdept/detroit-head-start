@@ -1,0 +1,32 @@
+---
+title: "48202"
+layout: default
+permalink: zip/:title
+testimonial-image: /images/testimonial-1.jpg
+testimonial-quote: Head start is amazing, I'm so glad I did this program
+testimonial-name: Ann mother of Cass
+---
+
+<section class="testimonial">
+  <div class="testimonial-wrap">
+    <div class="photo">
+    <img src="{{ page.testimonial-image }}">
+  </div>
+    <div class="testimonial-text">
+          <div class="quote">
+            <span>{{ page.testimonial-quote }}</span>
+          </div>
+        <div class="name">
+          <span>{{ page.testimonial-name }}</span>
+    </div>
+  </div>
+</section>
+
+<main>
+<div class="main"> 
+<div class='main-wrap'>
+<h1>Locations serving zip code {{ page.title }}</h1>
+<p>There are none listed with this specific zip code.</p>
+</div>
+</div>
+</main>

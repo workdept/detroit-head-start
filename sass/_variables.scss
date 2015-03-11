@@ -1,0 +1,62 @@
+/* ==========================================================================
+   VARIABLES
+
+   - Breakpoints
+      - Desktop
+      - Tablet
+   - Type Scale
+   ========================================================================== */
+
+/* Misc variables
+   ========================================================================== */
+$site-max-width: 800px;
+
+@mixin clearfix-micro() {
+    & {
+        *zoom: 1;
+    }
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+@mixin center-text(){
+  margin:0 auto;
+  max-width: $site-max-width;
+}
+
+/* Breakpoints
+   ========================================================================== */
+
+/**
+ *
+ * There are two breakpoints located in /_sass/_queries.scss
+ * One for tablets, and one for desktops. NKD is mobile first.
+ * This sets the range for those breakpoints.
+ * Queries are meant to be extended as needed.
+ *
+ */
+
+/* Large Breakpoint */
+$LARGE-min-width: 900px;
+
+/* Medium Breakpoint */
+$MEDIUM-max-width: 900px;
+$MEDIUM-min-width: 600px;
+
+
+/* Type Scale - I always need a type-scale
+   ========================================================================== */
+
+$font-size-1:64px;
+$font-size-2:48px;
+$font-size-3:32px;
+$font-size-4:20px; // The new black
+$font-size-5:16px;
+$font-size-6:12px; // Should only be used for text you want no one to read.
+
