@@ -21,8 +21,7 @@ author: "The Work Department"
 
 # Change this to your production URL
 # ============================================================
-url: "http://workdept.github.io"
-baseurl: /detroit-head-start
+url: "http://headstart.theworkdept.com"
 
 # Publish future posts or not option.
 # ============================================================
