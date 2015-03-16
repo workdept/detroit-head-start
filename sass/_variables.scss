@@ -10,6 +10,7 @@
 /* Misc variables
    ========================================================================== */
 $site-max-width: 800px;
+$site-text-max-width: 600px;
 
 @mixin clearfix-micro() {
     & {
@@ -27,7 +28,7 @@ $site-max-width: 800px;
 
 @mixin center-text(){
   margin:0 auto;
-  max-width: $site-max-width;
+  max-width: $site-text-max-width;
 }
 
 /* Breakpoints
@@ -47,7 +48,7 @@ $LARGE-min-width: 900px;
 
 /* Medium Breakpoint */
 $MEDIUM-max-width: 900px;
-$MEDIUM-min-width: 600px;
+$MEDIUM-min-width: 768px;
 
 
 /* Type Scale - I always need a type-scale

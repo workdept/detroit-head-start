@@ -16,7 +16,7 @@ $( document ).ready(function() {
 
 
     /*Smilies in table */
-	if ($(window).width() > 600){	
+	if ($(window).width() > 768){	
     
     // Get number
     $( "table.family-size td:nth-child(1)").slice(1).each(function( index ) {

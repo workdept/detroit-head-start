@@ -1,23 +1,36 @@
 ---
 layout: default
-testimonial-image: /images/testimonial-1.jpg
-testimonial-quote: Head start is amazing, I'm so glad I did this program
-testimonial-name: Ann mother of Cass
+
+testimonial-1:
+  name: Tanya McCord, mother of 3
+  image: /images/testimonials/Tanya_McCord.png
+  image-mobile: /images/testimonials/Tanya_McCord_M.png
+  quote: “My daughter says, ‘I go to Head Start, and then I am going to college’…”
+
+testimonial-2:
+  name: Gary Jones, father of 5
+  image: /images/testimonials/Gary_Jones.png
+  image-mobile: /images/testimonials/Gary_Jones_M.png
+  quote: “Head Start taught me the importance of a male figure in the family.”
 ---
 
 <section class="testimonial">
   <div class="testimonial-wrap">
     <div class="photo">
-    <img src="{{ page.testimonial-image }}">
-  </div>
+       <img class="mobile-only" src="{{ page.testimonial-1.image-mobile }}">
+    </div>
     <div class="testimonial-text">
           <div class="quote">
-            <span>{{ page.testimonial-quote }}</span>
+            <span>{{ page.testimonial-1.quote }}</span>
           </div>
         <div class="name">
-          <span>{{ page.testimonial-name }}</span>
-    </div>
+          <span>{{ page.testimonial-1.name }}</span>
+        </div>
   </div>
+    <div class="photo">
+      <img class="desktop-only" src="{{ page.testimonial-1.image }}">
+    </div> 
+   </div>  
 </section>
 
 <main>
@@ -140,3 +153,22 @@ testimonial-name: Ann mother of Cass
 </div>
 </div>
 </main>
+
+<section class="testimonial">
+  <div class="testimonial-wrap">
+    <div class="photo">
+       <img class="mobile-only" src="{{ page.testimonial-2.image-mobile }}">
+    </div>
+    <div class="testimonial-text">
+          <div class="quote">
+            <span>{{ page.testimonial-2.quote }}</span>
+          </div>
+        <div class="name">
+          <span>{{ page.testimonial-2.name }}</span>
+        </div>
+  </div>
+    <div class="photo">
+      <img class="desktop-only" src="{{ page.testimonial-2.image }}">
+    </div> 
+   </div>  
+</section>

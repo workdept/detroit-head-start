@@ -96,6 +96,7 @@ nav.main-nav {
     .header-wrap {
         margin: 0 auto;
         max-width: $site-max-width;
+        padding-bottom:20px;
     }
     .logo-title {
         float: left;
@@ -141,7 +142,6 @@ nav.main-nav {
 
 /* Testimonials
    ========================================================================== */
-
 section.testimonial {
     background: #3DC4AA;
     .testimonial-wrap {
@@ -150,6 +150,10 @@ section.testimonial {
     }
     img {
         width: 100%;
+    }
+
+    img.desktop-only{
+        display: none;
     }
     .testimonial-text {
         background: #10283A;
@@ -171,24 +175,39 @@ section.testimonial {
     section.testimonial {
         @include clearfix-micro;
         position: relative;
+        height:192px;
+
         .testimonial-wrap {
-            max-width: $site-max-width;
+            max-width: 700px;
             margin: 0 auto;
+            width:100%;
+              padding: 0 5%;
         }
+
+        .testimonial-text{
+            width:455px;
+            margin:20px 10px;
+            float:left;
+            box-sizing: border-box;
+            background:url('/images/blueRectangleTri.png') center center;
+            padding:26px 30px 26px 5px;
+
+            .quote{
+            }
+        }
+
+        img.desktop-only{
+            display: block;
+        }
+        img.mobile-only{
+            display: none;
+        }    
         .photo {
-            width: 210px;
-            height: 210px;
-            border-radius: 105px;
-            -webkit-border-radius: 105px;
-            -moz-border-radius: 105px;
-            overflow: hidden;
-            position: absolute;
-            top: -10px;
-            right: 0;
+            width: 212px;
+            float:left;
+            margin-top:-10px;
         }
         img {
-            width: 348px;
-            margin-left: -72px;
         }
     }
 }
@@ -210,7 +229,7 @@ section.testimonial {
         padding: 20px 0;
     }
     table.family-size {
-        max-width: $site-max-width - 200px;
+        max-width: $site-text-max-width - 100px;
         margin: 0 auto 45px;
         td:nth-child(1) {
             border-right: solid 1px #fff;
@@ -230,7 +249,7 @@ section.testimonial {
             }
         }
         tr:nth-child(1) td {
-            font-size: 24px;
+            font-size:18px;
             text-align: left;
             font-weight: 600;
             padding-left: 10px;
