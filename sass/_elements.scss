@@ -5,6 +5,7 @@ body{
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
   color:#10283A;
   font-size: 16px;
+  word-wrap: break-word;
 }
 
 h2{
@@ -28,5 +29,9 @@ ul{
     vertical-align: middle;
 
   }
-
 }
+
+    iframe{
+    width:100% !important;
+  }
+

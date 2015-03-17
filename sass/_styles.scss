@@ -9,12 +9,12 @@ header {
     background: #E6E7E8;
 }
 
-nav.top-bar {
+nav.nav-bar {
     display: none;
-    background: #34495E;
+    background: #10283A;
     padding: 10px 0;
     @include clearfix-micro;
-    .top-bar-wrap {
+    .nav-bar-wrap {
         margin: 0 auto;
         a {
             color: #fff;
@@ -22,7 +22,7 @@ nav.top-bar {
             font-size: 14px;
             font-weight: 300;
             float: right;
-            width: 222px;
+            width: 232px;
         }
     }
 }
@@ -88,10 +88,11 @@ nav.main-nav {
 }
 
 @include breakpoint(not-small) {
-    nav.top-bar,
+    nav.nav-bar,
     nav.main-nav ul {
         display: block;
     }
+    
     .header-wrap {
         margin: 0 auto;
         max-width: $site-max-width;
@@ -127,12 +128,9 @@ nav.main-nav {
             display: none;
         }
     }
-}
 
-
-@include breakpoint(large) {
     .header-wrap,
-    .top-bar-wrap {
+    .nav-bar-wrap {
         width: $site-max-width;
         margin: 0 auto;
     }
@@ -227,6 +225,10 @@ section.testimonial {
     &.yellow {
         background: #F1C40F;
     }
+    &.light-green{
+        background: #5FE093;
+    }
+   
     .main-wrap {
         margin: 0 7%;
         padding: 20px 0;
