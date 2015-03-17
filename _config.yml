@@ -21,7 +21,7 @@ author: "The Work Department"
 
 # Change this to your production URL
 # ============================================================
-
+url: http://headstart.theworkdept.com
 
 # Publish future posts or not option.
 # ============================================================
@@ -39,7 +39,7 @@ exclude: [README.md, Rakefile, node_modules]
 
 # Style of permalinks
 # ============================================================
-permalink: /:title
+permalink: pretty
 
 # Variable format options for URL styles below
 # ============================================================
