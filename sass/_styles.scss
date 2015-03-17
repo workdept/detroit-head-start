@@ -28,12 +28,11 @@ nav.top-bar {
 }
 
 .header-wrap {
-    padding: 10px;
+    padding: 5px 10px;
     @include clearfix-micro;
 }
 
 .logo-title {
-    padding: 5px;
     @include clearfix-micro;
     img, h1 {
         float: left;
@@ -53,7 +52,7 @@ nav.top-bar {
     font-size: 11px;
     box-sizing: border-box;
     position: absolute;
-    top: 34px;
+    top: 20px;
     right: 10px;
     text-align: center;
     text-decoration: none;
@@ -162,11 +161,11 @@ section.testimonial {
         padding: 28px 10px;
         text-align: center;
         .quote {
-            font-size: 22px;
+            font-size: 18px;
             margin-bottom: 20px;
         }
         .name {
-            font-size: 18px;
+            font-size: 16px;
         }
     }
 }
@@ -191,6 +190,7 @@ section.testimonial {
             box-sizing: border-box;
             background:url('/images/blueRectangleTri.png') center center;
             padding:26px 30px 26px 5px;
+            height: 154px;
 
             .quote{
             }
@@ -223,6 +223,9 @@ section.testimonial {
     }
     &.green {
         background: #5FE093;
+    }
+    &.yellow {
+        background: #F1C40F;
     }
     .main-wrap {
         margin: 0 7%;
@@ -267,6 +270,47 @@ section.testimonial {
         padding: 20px 4%;
     }
 }
+
+
+/* Contact Form
+   ========================================================================== */
+
+form{
+    max-width: $site-text-max-width - 50px;
+    margin:35px 0;
+
+    .form-group{
+        margin:10px 0;
+    }
+    label{
+        display: block;
+    }
+
+    input, textarea{
+        width:100%;
+        -webkit-border-radius: 5px;
+            -moz-border-radius: 5px;
+    border-radius: 5px;
+      border-color: #3DC4AA;
+  border-width: 1px;
+  margin:5px 0;
+    }
+
+    input.submit{
+        background:#2C3E50;
+        border:none;
+        color:#fff;
+        padding:10px 20px;
+        width:auto;
+    }
+
+    @include breakpoint(not-small) {
+        textarea{
+        height:150px;
+    }
+    }
+}
+
 
 
 @include breakpoint(medium) {

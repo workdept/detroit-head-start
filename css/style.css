@@ -529,7 +529,7 @@ nav.top-bar .top-bar-wrap a {
 
 /* line 30, ../sass/_styles.scss */
 .header-wrap {
-  padding: 10px;
+  padding: 5px 10px;
 }
 /* line 16, ../sass/_variables.scss */
 .header-wrap {
@@ -545,10 +545,6 @@ nav.top-bar .top-bar-wrap a {
   clear: both;
 }
 
-/* line 35, ../sass/_styles.scss */
-.logo-title {
-  padding: 5px;
-}
 /* line 16, ../sass/_variables.scss */
 .logo-title {
   *zoom: 1;
@@ -562,18 +558,18 @@ nav.top-bar .top-bar-wrap a {
 .logo-title:after {
   clear: both;
 }
-/* line 38, ../sass/_styles.scss */
+/* line 37, ../sass/_styles.scss */
 .logo-title img, .logo-title h1 {
   float: left;
 }
-/* line 41, ../sass/_styles.scss */
+/* line 40, ../sass/_styles.scss */
 .logo-title h1 {
   color: #10283A;
   margin: 10px;
   width: 50%;
 }
 
-/* line 48, ../sass/_styles.scss */
+/* line 47, ../sass/_styles.scss */
 .menu-icon {
   background: #2C3E50;
   border-radius: 6px;
@@ -582,38 +578,38 @@ nav.top-bar .top-bar-wrap a {
   font-size: 11px;
   box-sizing: border-box;
   position: absolute;
-  top: 34px;
+  top: 20px;
   right: 10px;
   text-align: center;
   text-decoration: none;
 }
-/* line 60, ../sass/_styles.scss */
+/* line 59, ../sass/_styles.scss */
 .menu-icon span {
   display: block;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 66, ../sass/_styles.scss */
+/* line 65, ../sass/_styles.scss */
 .menu-icon i {
   color: #fff;
 }
 
-/* line 72, ../sass/_styles.scss */
+/* line 71, ../sass/_styles.scss */
 nav.main-nav ul {
   width: 100%;
   display: none;
   padding: 0 10px;
   margin: 0;
 }
-/* line 77, ../sass/_styles.scss */
+/* line 76, ../sass/_styles.scss */
 nav.main-nav ul li {
   font-size: 22px;
   list-style: none;
   line-height: 33px;
   padding: 0;
 }
-/* line 82, ../sass/_styles.scss */
+/* line 81, ../sass/_styles.scss */
 nav.main-nav ul li a {
   text-decoration: none;
   color: #10283A;
@@ -621,61 +617,61 @@ nav.main-nav ul li a {
 }
 
 @media screen and (min-width: 768px) {
-  /* line 92, ../sass/_styles.scss */
+  /* line 91, ../sass/_styles.scss */
   nav.top-bar,
   nav.main-nav ul {
     display: block;
   }
 
-  /* line 96, ../sass/_styles.scss */
+  /* line 95, ../sass/_styles.scss */
   .header-wrap {
     margin: 0 auto;
     max-width: 800px;
     padding-bottom: 20px;
   }
 
-  /* line 101, ../sass/_styles.scss */
+  /* line 100, ../sass/_styles.scss */
   .logo-title {
     float: left;
     width: 56%;
     margin: 45px 0 0;
   }
-  /* line 105, ../sass/_styles.scss */
+  /* line 104, ../sass/_styles.scss */
   .logo-title h1 {
     width: auto;
     font-size: 45px;
     margin: 0 10px;
   }
 
-  /* line 111, ../sass/_styles.scss */
+  /* line 110, ../sass/_styles.scss */
   .menu-icon {
     display: none;
   }
 
-  /* line 114, ../sass/_styles.scss */
+  /* line 113, ../sass/_styles.scss */
   nav.main-nav ul {
     float: right;
     width: 222px;
   }
-  /* line 117, ../sass/_styles.scss */
+  /* line 116, ../sass/_styles.scss */
   nav.main-nav ul li {
     font-size: 22px;
     list-style: none;
     line-height: 33px;
   }
-  /* line 121, ../sass/_styles.scss */
+  /* line 120, ../sass/_styles.scss */
   nav.main-nav ul li a {
     text-decoration: none;
     color: #10283A;
     font-weight: 600;
   }
-  /* line 127, ../sass/_styles.scss */
+  /* line 126, ../sass/_styles.scss */
   nav.main-nav ul .mobile-only {
     display: none;
   }
 }
 @media screen and (min-width: 900px) {
-  /* line 135, ../sass/_styles.scss */
+  /* line 134, ../sass/_styles.scss */
   .header-wrap,
   .top-bar-wrap {
     width: 800px;
@@ -684,24 +680,24 @@ nav.main-nav ul li a {
 }
 /* Testimonials
    ========================================================================== */
-/* line 145, ../sass/_styles.scss */
+/* line 144, ../sass/_styles.scss */
 section.testimonial {
   background: #3DC4AA;
 }
-/* line 147, ../sass/_styles.scss */
+/* line 146, ../sass/_styles.scss */
 section.testimonial .testimonial-wrap {
   width: 86%;
   margin: 0 7%;
 }
-/* line 151, ../sass/_styles.scss */
+/* line 150, ../sass/_styles.scss */
 section.testimonial img {
   width: 100%;
 }
-/* line 155, ../sass/_styles.scss */
+/* line 154, ../sass/_styles.scss */
 section.testimonial img.desktop-only {
   display: none;
 }
-/* line 158, ../sass/_styles.scss */
+/* line 157, ../sass/_styles.scss */
 section.testimonial .testimonial-text {
   background: #10283A;
   color: #fff;
@@ -709,18 +705,18 @@ section.testimonial .testimonial-text {
   padding: 28px 10px;
   text-align: center;
 }
-/* line 164, ../sass/_styles.scss */
+/* line 163, ../sass/_styles.scss */
 section.testimonial .testimonial-text .quote {
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 20px;
 }
-/* line 168, ../sass/_styles.scss */
+/* line 167, ../sass/_styles.scss */
 section.testimonial .testimonial-text .name {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 175, ../sass/_styles.scss */
+  /* line 174, ../sass/_styles.scss */
   section.testimonial {
     position: relative;
     height: 192px;
@@ -738,14 +734,14 @@ section.testimonial .testimonial-text .name {
   section.testimonial:after {
     clear: both;
   }
-  /* line 180, ../sass/_styles.scss */
+  /* line 179, ../sass/_styles.scss */
   section.testimonial .testimonial-wrap {
     max-width: 700px;
     margin: 0 auto;
     width: 100%;
     padding: 0 5%;
   }
-  /* line 187, ../sass/_styles.scss */
+  /* line 186, ../sass/_styles.scss */
   section.testimonial .testimonial-text {
     width: 455px;
     margin: 20px 10px;
@@ -753,6 +749,7 @@ section.testimonial .testimonial-text .name {
     box-sizing: border-box;
     background: url("/images/blueRectangleTri.png") center center;
     padding: 26px 30px 26px 5px;
+    height: 154px;
   }
   /* line 199, ../sass/_styles.scss */
   section.testimonial img.desktop-only {
@@ -784,55 +781,98 @@ section.testimonial .testimonial-text .name {
   background: #5FE093;
 }
 /* line 227, ../sass/_styles.scss */
+.main.yellow {
+  background: #F1C40F;
+}
+/* line 230, ../sass/_styles.scss */
 .main .main-wrap {
   margin: 0 7%;
   padding: 20px 0;
 }
-/* line 231, ../sass/_styles.scss */
+/* line 234, ../sass/_styles.scss */
 .main table.family-size {
   max-width: 500px;
   margin: 0 auto 45px;
 }
-/* line 234, ../sass/_styles.scss */
+/* line 237, ../sass/_styles.scss */
 .main table.family-size td:nth-child(1) {
   border-right: solid 1px #fff;
   padding-right: 10px;
   width: 40%;
 }
 @media screen and (min-width: 768px) {
-  /* line 234, ../sass/_styles.scss */
+  /* line 237, ../sass/_styles.scss */
   .main table.family-size td:nth-child(1) {
     width: 60%;
     text-align: left;
   }
 }
-/* line 243, ../sass/_styles.scss */
+/* line 246, ../sass/_styles.scss */
 .main table.family-size td {
   border-bottom: solid 1px #fff;
   text-align: right;
   font-size: 32px;
 }
-/* line 247, ../sass/_styles.scss */
+/* line 250, ../sass/_styles.scss */
 .main table.family-size td p {
   margin: 11px 0;
 }
-/* line 251, ../sass/_styles.scss */
+/* line 254, ../sass/_styles.scss */
 .main table.family-size tr:nth-child(1) td {
   font-size: 18px;
   text-align: left;
   font-weight: 600;
   padding-left: 10px;
 }
-/* line 258, ../sass/_styles.scss */
+/* line 261, ../sass/_styles.scss */
 .main table.family-size i {
   margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 265, ../sass/_styles.scss */
+  /* line 268, ../sass/_styles.scss */
   .main .main-wrap {
     margin: 0 auto;
     max-width: 600px;
     padding: 20px 4%;
+  }
+}
+/* Contact Form
+   ========================================================================== */
+/* line 278, ../sass/_styles.scss */
+form {
+  max-width: 550px;
+  margin: 35px 0;
+}
+/* line 282, ../sass/_styles.scss */
+form .form-group {
+  margin: 10px 0;
+}
+/* line 285, ../sass/_styles.scss */
+form label {
+  display: block;
+}
+/* line 289, ../sass/_styles.scss */
+form input, form textarea {
+  width: 100%;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  border-color: #3DC4AA;
+  border-width: 1px;
+  margin: 5px 0;
+}
+/* line 299, ../sass/_styles.scss */
+form input.submit {
+  background: #2C3E50;
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  width: auto;
+}
+@media screen and (min-width: 768px) {
+  /* line 308, ../sass/_styles.scss */
+  form textarea {
+    height: 150px;
   }
 }
