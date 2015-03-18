@@ -1,37 +1,33 @@
 /* Basic element styling
    ========================================================================== */
 
-body{
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif; 
-  color:#10283A;
-  font-size: 16px;
-  word-wrap: break-word;
+body {
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #10283A;
+    font-size: 16px;
+    word-wrap: break-word;
 }
 
-h2{
-    font-size:32px;
+h2 {
+    font-size: 32px;
     font-weight: 600;
 }
 
-h3{
-    font-size:24px;
+h3 {
+    font-size: 24px;
     font-weight: 600;
 }
 
-ul{
-
-  li{
-    margin:10px 0;
-  }
-
-  &.check-box i{
-    text-indent: -22px;
-    vertical-align: middle;
-
-  }
+ul {
+    li {
+        margin: 10px 0;
+    }
+    &.check-box i {
+        text-indent: -22px;
+        vertical-align: middle;
+    }
 }
 
-    iframe{
-    width:100% !important;
-  }
-
+iframe {
+    width: 100% !important;
+}

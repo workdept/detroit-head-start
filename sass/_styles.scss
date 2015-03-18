@@ -30,6 +30,10 @@ nav.nav-bar {
 .header-wrap {
     padding: 5px 10px;
     @include clearfix-micro;
+
+    a{
+        text-decoration: none;
+    }
 }
 
 .logo-title {
@@ -68,6 +72,9 @@ nav.nav-bar {
 }
 
 nav.main-nav {
+    display: block;
+    width: 100%;
+    @include clearfix-micro;
     ul {
         width: 100%;
         display: none;
@@ -92,11 +99,10 @@ nav.main-nav {
     nav.main-nav ul {
         display: block;
     }
-    
     .header-wrap {
         margin: 0 auto;
         max-width: $site-max-width;
-        padding-bottom:20px;
+        padding-bottom: 20px;
     }
     .logo-title {
         float: left;
@@ -128,10 +134,9 @@ nav.main-nav {
             display: none;
         }
     }
-
     .header-wrap,
     .nav-bar-wrap {
-        width: $site-max-width;
+        max-width: $site-max-width;
         margin: 0 auto;
     }
 }
@@ -148,14 +153,13 @@ section.testimonial {
     img {
         width: 100%;
     }
-
-    img.desktop-only{
+    img.desktop-only {
         display: none;
     }
     .testimonial-text {
         background: #10283A;
         color: #fff;
-        margin-top: -4px;
+        margin-top: -5px;
         padding: 28px 10px;
         text-align: center;
         .quote {
@@ -172,41 +176,35 @@ section.testimonial {
     section.testimonial {
         @include clearfix-micro;
         position: relative;
-        height:192px;
-
+        height: 192px;
         .testimonial-wrap {
             max-width: 700px;
             margin: 0 auto;
-            width:100%;
-              padding: 0 5%;
+            width: 100%;
+            padding: 0 5%;
         }
-
-        .testimonial-text{
-            width:455px;
-            margin:20px 10px;
-            float:left;
+        .testimonial-text {
+            width: 455px;
+            margin: 20px 10px;
+            float: left;
             box-sizing: border-box;
-            background:url('/images/blueRectangleTri.png') center center;
-            padding:26px 30px 26px 5px;
+            background: url("/images/blueRectangleTri.png") center center;
+            padding: 26px 30px 26px 5px;
             height: 154px;
-
-            .quote{
-            }
+            .quote {}
         }
-
-        img.desktop-only{
+        img.desktop-only {
             display: block;
         }
-        img.mobile-only{
+        img.mobile-only {
             display: none;
-        }    
+        }
         .photo {
             width: 212px;
-            float:left;
-            margin-top:-10px;
+            float: left;
+            margin-top: -10px;
         }
-        img {
-        }
+        img {}
     }
 }
 
@@ -225,10 +223,9 @@ section.testimonial {
     &.yellow {
         background: #F1C40F;
     }
-    &.light-green{
+    &.light-green {
         background: #5FE093;
     }
-   
     .main-wrap {
         margin: 0 7%;
         padding: 20px 0;
@@ -254,14 +251,13 @@ section.testimonial {
             }
         }
         tr:nth-child(1) td {
-            font-size:18px;
+            font-size: 18px;
             text-align: left;
             font-weight: 600;
             padding-left: 10px;
         }
-
-        i{
-           margin-right:5px; 
+        i {
+            margin-right: 5px;
         }
     }
 }
@@ -277,49 +273,34 @@ section.testimonial {
 /* Contact Form
    ========================================================================== */
 
-form{
+form {
     max-width: $site-text-max-width - 50px;
-    margin:35px 0;
-
-    .form-group{
-        margin:10px 0;
+    margin: 35px 0;
+    .form-group {
+        margin: 10px 0;
     }
-    label{
+    label {
         display: block;
     }
-
-    input, textarea{
-        width:100%;
+    input, textarea {
+        width: 100%;
         -webkit-border-radius: 5px;
-            -moz-border-radius: 5px;
-    border-radius: 5px;
-      border-color: #3DC4AA;
-  border-width: 1px;
-  margin:5px 0;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        border-color: #3DC4AA;
+        border-width: 1px;
+        margin: 5px 0;
     }
-
-    input.submit{
-        background:#2C3E50;
-        border:none;
-        color:#fff;
-        padding:10px 20px;
-        width:auto;
+    input.submit {
+        background: #2C3E50;
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        width: auto;
     }
-
     @include breakpoint(not-small) {
-        textarea{
-        height:150px;
+        textarea {
+            height: 150px;
+        }
     }
-    }
-}
-
-
-
-@include breakpoint(medium) {
-    body {}
-}
-
-
-@include breakpoint(large) {
-    body {}
 }

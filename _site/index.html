@@ -11,12 +11,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+  <!--[if IE 7]>
+  <link rel="stylesheet" href="/css/font-awesome-ie7.min.css">
+  <![endif]-->
+
+  <link rel="stylesheet" href="/css/style.css">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <script src="/js/respond/respond.matchmedia.addListener.min.js"></script>
+  <script src="/js/respond/respond.min.js"></script>
   <script src="/js/script.js"></script>
-  
-	<link rel="stylesheet" href="/css/style.css">
-  <!--<link rel="stylesheet" href="css/nkd.min.css">-->
 
   <!-- Favicons and Touch Device Icons -->
   <link rel="shortcut icon" href="favicon.ico">
@@ -24,181 +28,376 @@
 
   <body>
   	<header>
-
-<nav class="nav-bar" role="contact">
-<div class="nav-bar-wrap">
-	<a href="/contact">Contact us / Work with us</a>
-</div>
-</nav>	
-
-<div class="header-wrap">
-	<a class="logo-title" href="">
-		<img class="logo" src="/images/logo.png" alt="Detroit Head Start Logo">
-		<h1>Detroit <br/> Head Start</h1>
-	</a>
-
-	<nav class="main-nav" role="main">
-		<a href="#"><div class="menu-icon"><span>Menu</span><i class="fa fa-bars fa-3x"></i></div></a>
-		<ul>
-			<li><a href="#whatisheadstart">What is Head Start</a></li>
-			<li><a href="#whoisitfor">Who is it for?</a></li>
-			<li><a href="#whereisitlocated">Where is it located?</a></li>
-			<li><a href="#howtoapply">How do I apply?</a></li>
-			<li><a class="mobile-only" href="/contact">Contact us / Work with us</a></li>
-		</ul>
-	</nav>
-</div>
-
-</header>		
-    <section class="testimonial">
-  <div class="testimonial-wrap">
-    <div class="photo">
-       <img class="mobile-only" src="/images/testimonials/Tanya_McCord_M.png">
-    </div>
-    <div class="testimonial-text">
-          <div class="quote">
-            <span>“My daughter says, ‘I go to Head Start, and then I am going to college’…”</span>
-          </div>
-        <div class="name">
-          <span>Tanya McCord, mother of 3</span>
+    <nav class="nav-bar">
+        <div class="nav-bar-wrap">
+            <a href="/contact">Contact us / Work with us</a>
         </div>
-  </div>
-    <div class="photo">
-      <img class="desktop-only" src="/images/testimonials/Tanya_McCord.png">
-    </div> 
-   </div>  
+    </nav>
+
+    <div class="header-wrap">
+        <a class="logo-title" href=""><img alt=
+        "Detroit Head Start Logo" class="logo" src=
+        "/images/logo.png">
+
+        <h1>Detroit<br>
+        Head Start</h1></a> <a href="#">
+        <div class="menu-icon">
+            <span>Menu</span><i class="fa fa-bars fa-3x"></i>
+        </div></a>
+
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="#whatisheadstart">What is
+                    Head Start</a>
+                </li>
+
+                <li>
+                    <a href="#whoisitfor">Who is it
+                    for?</a>
+                </li>
+
+                <li>
+                    <a href="#whereisitlocated">Where is
+                    it located?</a>
+                </li>
+
+                <li>
+                    <a href="#howtoapply">How do I
+                    apply?</a>
+                </li>
+
+                <li>
+                    <a class="mobile-only" href=
+                    "/contact">Contact us / Work with
+                    us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
+    <section class="testimonial">
+    <div class="testimonial-wrap">
+        <div class="photo"><img class="mobile-only" src=
+        "/images/testimonials/Tanya_McCord_M.png"></div>
+
+        <div class="testimonial-text">
+            <div class="quote">
+                <span>“My daughter says, ‘I go to Head Start, and then I am going to college’…”</span>
+            </div>
+
+            <div class="name">
+                <span>Tanya McCord, mother of 3</span>
+            </div>
+        </div>
+
+        <div class="photo"><img class="desktop-only" src=
+        "/images/testimonials/Tanya_McCord.png"></div>
+    </div>
 </section>
 
 <main>
-<div class="main"> 
-<div class='main-wrap'>
-  <a name="whatisheadstart" class='anchor'></a>   
-  <h2>What is Head Start?</h2>
-  <p>Head Start is a free child care and pre-school program for kids from birth to 5 years old. We also provide services for the whole family, even pregnant mothers can enroll. Our program is for families who meet certain requirements.</p>
-  <p>Head Start has well-trained teachers who are devoted to the success of your whole family. Some locations offer full-day programs and others offer half-day programs.</p>
-  <h3>Kids get to:</h3>
-  <ul>
-  <li>learn basic math and reading skills/li>
-  <li>interact with other kids their age</l1>
-  <li>learn and have fun at the same time</li>
-  <li>eat healthy breakfast, lunch, and snacks</li>
-  <li>access free health services</li>
-  </ul>
-  <h3>Parents and guardians get to:</h3>
-  <ul>
-  <li>access free career training and job opportunities</li>
-  <li>meet other families with children</li>
-  <li>learn about child development</li>
-  <li>gain leadership skills</li>
-  </ul>
-  <h3>Are you pregnant?</h3><p>We offer free services to help you and your new baby get ahead through the best health and education options.</p>
-</div>
-</div>
+    <div class="main">
+        <div class='main-wrap'>
+            <a class='anchor' id="whatisheadstart" name=
+            "whatisheadstart"></a>
 
-<div class="main green">
-<div class='main-wrap'>
-<a name="whoisitfor" class='anchor'></a>   
-  <h2>Who is it for?</h2>
-  <p>Head Start is for families with kids from birth to age 5. We provide custom learning plans for your child. We offer infant and toddler care, half-day programs, full-day programs, and home-based services.</p>
-  <p>You must meet certain guidelines to get into Head Start.</p>
-  <p>The first step is to look at how many people are in your home and how much money everyone earns.</p>
+            <h2>What is Head Start?</h2>
 
-  <table dir="ltr" class="family-size">
-    <tbody><tr>
-      <td><p dir="ltr">How many people live in your home? Include everyone, and don&rsquo;t forget to count the kids!</p></td>
-      <td><p dir="ltr">Together, do you earn less than this amount each month (before taxes are taken out)?</p></td></tr>
-      <tr><td><p dir="ltr">2</p></td><td><p dir="ltr">$1,328</p></td></tr>
-      <tr><td><p dir="ltr">3</p></td><td><p dir="ltr">$1,675</p></td></tr>
-      <tr><td><p dir="ltr">4</p></td><td><p dir="ltr">$2,021</p></td></tr>
-      <tr><td><p dir="ltr">5</p></td><td><p dir="ltr">$2,368</p></td></tr>
-      <tr><td><p dir="ltr">6</p></td><td><p dir="ltr">$2,715</p></td></tr>
-      <tr><td><p dir="ltr">7</p></td><td><p dir="ltr">$3,061</p></td></tr>
-      <tr><td><p dir="ltr">8</p></td><td><p dir="ltr">$3,408</p></td></tr>
-    </tbody></table>
+            <p>Head Start is a free child care and pre-school program for
+            kids from birth to 5 years old. We also provide services for
+            the whole family, even pregnant mothers can enroll. Our program
+            is for families who meet certain requirements.</p>
 
-    <p>If you fit into the income guidelines above, you may qualify for Head Start. If you earn more money than what is in the chart, you may still be able to qualify because there are sometimes spots open for families with higher incomes. Call the centers near you to check.</p>
-</div>
-</div>
-<div class="main">
-<div class='main-wrap'>
-    <p>There are other things that may help you qualify for the program. (You may need to provide proof.)</p>
-    <h3>If you:</h3>
-    <ul dir="ltr" class="fa-ul check-box">
-      <li><i class="fa fa-check-square-o"></i>Are a foster parent, a single parent, or a teen parent.</li>
-      <li><i class="fa fa-check-square-o"></i>Are unemployed.</li>
-      <li><i class="fa fa-check-square-o"></i>Care for a child that is not yours.</li>
-      <li><i class="fa fa-check-square-o"></i>Had a recent death in the household.</li>
-      <li><i class="fa fa-check-square-o"></i>Had a spouse recently deported.</li>
-      <li><i class="fa fa-check-square-o"></i>Were in jail or have a spouse in jail.</li>
-      <li><i class="fa fa-check-square-o"></i>Have not graduated from high school or college.</li>
-      <li><i class="fa fa-check-square-o"></i>Are a parent enrolled in an education or training program.</li>
-      <li><i class="fa fa-check-square-o"></i>Are homeless.</li>
-      <li><i class="fa fa-check-square-o"></i>Receive disability, TANF, SSI, or WIC benefits.</li>
-      <li><i class="fa fa-check-square-o"></i>Have a disabled child, or have a referral to a pre-school program.</li>
-      <li><i class="fa fa-check-square-o"></i>Have a child with chronic health problems or special needs.</li>
-      <li><i class="fa fa-check-square-o"></i>Live in a house where there is substance abuse, physical abuse, or mental illness.</li>
-      <li><i class="fa fa-check-square-o"></i>Do not have access to a car.</li>
-      <li><i class="fa fa-check-square-o"></i>Speak English as your second language, are a new migrant family, or have seasonal work.</li>
-      <li><i class="fa fa-check-square-o"></i>Are in the military.</li>
-    </ul>
+            <p>Head Start has well-trained teachers who are devoted to the
+            success of your whole family. Some locations offer full-day
+            programs and others offer half-day programs.</p>
 
-    <p><b>Let our staff know if any of these apply to you. It may help you qualify.</b></p>
-</div>
-</div>
+            <h3>Kids get to:</h3>
 
-<div class="main blue">
-<div class='main-wrap'>  
-  <a name="whereisitlocated" class='anchor'></a>  
-  <h2>Where is it located?</h2>
-  <p>There are over 60 Head Start centers in Detroit, and there’s one near you! If you can’t make it to a center, there are also home programs in which a well-trained teacher visits your home once a week.</p>
+            <ul>
+                <li>learn basic math and reading skills</li>
 
-  <p><a href="/locater">Use our tool to find a center new you.</a></p>
+                <li>interact with other kids their age</li>
 
-</div>
-</div>
+                <li>learn and have fun at the same time</li>
 
-<div class="main">
-<div class='main-wrap'>  
-    <a name="howtoapply" class='anchor'></a>  
-    <h2>How do I apply?</h2>
-    <p>When you find a center near you, call and let us know that you want to apply. Our staff will tell you what to bring, and may schedule an appointment to meet you.</p>
+                <li>eat healthy breakfast, lunch, and snacks</li>
 
-  <p>Our staff will help you apply when you come in. Plan on spending about an hour at this appointment. (You may bring children.) Share as much information as you can. We are looking for families who benefit most from our services.</p>
+                <li>access free health services</li>
+            </ul>
 
-  <p>YYou will need to bring certain papers to apply. Bring these things with you to make the process faster:</p>
+            <h3>Parents and guardians get to:</h3>
 
-  <ul dir="ltr" class="fa-ul check-box">
-    <li><i class="fa fa-check-square-o"></i>your child's birth certificate</li>
-    <li><i class="fa fa-check-square-o"></i>your child's immunization records</li>
-    <li><i class="fa fa-check-square-o"></i>if you work, proof of your income</li>
-    <li><i class="fa fa-check-square-o"></i>if you attend school, proof of your student status</li>
-    <li><i class="fa fa-check-square-o"></i>your driver's license or ID</li>
-    <li><i class="fa fa-check-square-o"></i>your child's medical insurance information, if available</li>
-  </ul>
+            <ul>
+                <li>access free career training and job opportunities</li>
 
-</div>
-</div>
+                <li>meet other families with children</li>
+
+                <li>learn about child development</li>
+
+                <li>gain leadership skills</li>
+            </ul>
+
+            <h3>Are you pregnant?</h3>
+
+            <p>We offer free services to help you and your new baby get
+            ahead through the best health and education options.</p>
+        </div>
+    </div>
+
+    <div class="main green">
+        <div class='main-wrap'>
+            <a class='anchor' id="whoisitfor" name="whoisitfor"></a>
+
+            <h2>Who is it for?</h2>
+
+            <p>Head Start is for families with kids from birth to age 5. We
+            provide custom learning plans for your child. We offer infant
+            and toddler care, half-day programs, full-day programs, and
+            home-based services.</p>
+
+            <p>You must meet certain guidelines to get into Head Start.</p>
+
+            <p>The first step is to look at how many people are in your
+            home and how much money everyone earns.</p>
+
+            <table class="family-size" dir="ltr">
+                <tbody>
+                    <tr>
+                        <td>
+                            <p dir="ltr">How many people live in your home?
+                            Include everyone, and don&rsquo;t forget to
+                            count the kids!</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">Together, do you earn less than
+                            this amount each month (before taxes are taken
+                            out)?</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">2</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$1,328</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">3</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$1,675</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">4</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$2,021</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">5</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$2,368</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">6</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$2,715</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">7</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$3,061</p>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <p dir="ltr">8</p>
+                        </td>
+
+                        <td>
+                            <p dir="ltr">$3,408</p>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <p>If you fit into the income guidelines above, you may qualify
+            for Head Start. If you earn more money than what is in the
+            chart, you may still be able to qualify because there are
+            sometimes spots open for families with higher incomes. Call the
+            centers near you to check.</p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class='main-wrap'>
+            <p>There are other things that may help you qualify for the
+            program. (You may need to provide proof.)</p>
+
+            <h3>If you:</h3>
+
+            <ul class="fa-ul check-box" dir="ltr">
+                <li><i class="fa fa-check-square-o"></i>Are a foster
+                parent, a single parent, or a teen parent.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Are
+                unemployed.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Care for a child
+                that is not yours.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Had a recent death
+                in the household.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Had a spouse
+                recently deported.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Were in jail or
+                have a spouse in jail.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Have not graduated
+                from high school or college.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Are a parent
+                enrolled in an education or training program.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Are homeless.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Receive disability,
+                TANF, SSI, or WIC benefits.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Have a disabled
+                child, or have a referral to a pre-school program.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Have a child with
+                chronic health problems or special needs.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Live in a house
+                where there is substance abuse, physical abuse, or mental
+                illness.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Do not have access
+                to a car.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Speak English as
+                your second language, are a new migrant family, or have
+                seasonal work.</li>
+
+                <li><i class="fa fa-check-square-o"></i>Are in the
+                military.</li>
+            </ul>
+
+            <p style="font-weight: bold">Let our staff know if any of these
+            apply to you. It may help you qualify.</p>
+        </div>
+    </div>
+
+    <div class="main blue">
+        <div class='main-wrap'>
+            <a class='anchor' id="whereisitlocated" name=
+            "whereisitlocated"></a>
+
+            <h2>Where is it located?</h2>
+
+            <p>There are over 60 Head Start centers in Detroit, and there’s
+            one near you! If you can’t make it to a center, there are also
+            home programs in which a well-trained teacher visits your home
+            once a week.</p>
+
+            <p><a href="/locater">Use our tool to find a
+            center new you.</a></p>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class='main-wrap'>
+            <a class='anchor' id="howtoapply" name="howtoapply"></a>
+
+            <h2>How do I apply?</h2>
+
+            <p>When you find a center near you, call and let us know that
+            you want to apply. Our staff will tell you what to bring, and
+            may schedule an appointment to meet you.</p>
+
+            <p>Our staff will help you apply when you come in. Plan on
+            spending about an hour at this appointment. (You may bring
+            children.) Share as much information as you can. We are looking
+            for families who benefit most from our services.</p>
+
+            <p>YYou will need to bring certain papers to apply. Bring these
+            things with you to make the process faster:</p>
+
+            <ul class="fa-ul check-box" dir="ltr">
+                <li><i class="fa fa-check-square-o"></i>your child's birth
+                certificate</li>
+
+                <li><i class="fa fa-check-square-o"></i>your child's
+                immunization records</li>
+
+                <li><i class="fa fa-check-square-o"></i>if you work, proof
+                of your income</li>
+
+                <li><i class="fa fa-check-square-o"></i>if you attend
+                school, proof of your student status</li>
+
+                <li><i class="fa fa-check-square-o"></i>your driver's
+                license or ID</li>
+
+                <li><i class="fa fa-check-square-o"></i>your child's
+                medical insurance information, if available</li>
+            </ul>
+        </div>
+    </div>
 </main>
 
 <section class="testimonial">
-  <div class="testimonial-wrap">
-    <div class="photo">
-       <img class="mobile-only" src="/images/testimonials/Gary_Jones_M.png">
-    </div>
-    <div class="testimonial-text">
-          <div class="quote">
-            <span>“Head Start taught me the importance of a male figure in the family.”</span>
-          </div>
-        <div class="name">
-          <span>Gary Jones, father of 5</span>
-        </div>
-  </div>
-    <div class="photo">
-      <img class="desktop-only" src="/images/testimonials/Gary_Jones.png">
-    </div> 
-   </div>  
-</section>
+    <div class="testimonial-wrap">
+        <div class="photo"><img class="mobile-only" src=
+        "/images/testimonials/Gary_Jones_M.png"></div>
 
+        <div class="testimonial-text">
+            <div class="quote">
+                <span>“Head Start taught me the importance of a male figure in the family.”</span>
+            </div>
+
+            <div class="name">
+                <span>Gary Jones, father of 5</span>
+            </div>
+        </div>
+
+        <div class="photo"><img class="desktop-only" src=
+        "/images/testimonials/Gary_Jones.png"></div>
+    </div>
+</section>
     <nav class="nav-bar" role="contact">
 <div class="nav-bar-wrap">
 	<a href="/contact">Contact us / Work with us</a>

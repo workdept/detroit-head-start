@@ -1,27 +1,49 @@
 <header>
+    <nav class="nav-bar">
+        <div class="nav-bar-wrap">
+            <a href="{{site.url}}/contact">Contact us / Work with us</a>
+        </div>
+    </nav>
 
-<nav class="nav-bar" role="contact">
-<div class="nav-bar-wrap">
-	<a href="{{site.url}}/contact">Contact us / Work with us</a>
-</div>
-</nav>	
+    <div class="header-wrap">
+        <a class="logo-title" href="{{%20site.url%20}}"><img alt=
+        "Detroit Head Start Logo" class="logo" src=
+        "{{%20site.url%20}}/images/logo.png">
 
-<div class="header-wrap">
-	<a class="logo-title" href="{{ site.url }}">
-		<img class="logo" src="{{ site.url }}/images/logo.png" alt="Detroit Head Start Logo">
-		<h1>Detroit <br/> Head Start</h1>
-	</a>
+        <h1>Detroit<br>
+        Head Start</h1></a> <a href="#">
+        <div class="menu-icon">
+            <span>Menu</span><i class="fa fa-bars fa-3x"></i>
+        </div></a>
 
-	<nav class="main-nav" role="main">
-		<a href="#"><div class="menu-icon"><span>Menu</span><i class="fa fa-bars fa-3x"></i></div></a>
-		<ul>
-			<li><a href="{{ site.url }}#whatisheadstart">What is Head Start</a></li>
-			<li><a href="{{ site.url }}#whoisitfor">Who is it for?</a></li>
-			<li><a href="{{ site.url }}#whereisitlocated">Where is it located?</a></li>
-			<li><a href="{{ site.url }}#howtoapply">How do I apply?</a></li>
-			<li><a class="mobile-only" href="{{ site.url }}/contact">Contact us / Work with us</a></li>
-		</ul>
-	</nav>
-</div>
+        <nav class="main-nav">
+            <ul>
+                <li>
+                    <a href="{{%20site.url%20}}#whatisheadstart">What is
+                    Head Start</a>
+                </li>
 
-</header>		
+                <li>
+                    <a href="{{%20site.url%20}}#whoisitfor">Who is it
+                    for?</a>
+                </li>
+
+                <li>
+                    <a href="{{%20site.url%20}}#whereisitlocated">Where is
+                    it located?</a>
+                </li>
+
+                <li>
+                    <a href="{{%20site.url%20}}#howtoapply">How do I
+                    apply?</a>
+                </li>
+
+                <li>
+                    <a class="mobile-only" href=
+                    "{{%20site.url%20}}/contact">Contact us / Work with
+                    us</a>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>
