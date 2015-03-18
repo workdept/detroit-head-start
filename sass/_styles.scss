@@ -187,13 +187,16 @@ section.testimonial {
         }
         .testimonial-text {
             width: 455px;
-            margin: 20px 10px;
             float: left;
-            box-sizing: border-box;
-            background: url("/images/blueRectangleTri.png") center center;
-            padding: 26px 30px 26px 5px;
+            background: url("/images/blueRectangleTri.png") center center no-repeat;
             height: 154px;
-            .quote {}
+            .quote {
+                width: 413px;
+                margin: 20px 10px;
+            }
+            .name{
+               width: 413px; 
+            }
         }
         img.desktop-only {
             display: block;
