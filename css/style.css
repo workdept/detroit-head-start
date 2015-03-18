@@ -506,16 +506,16 @@ nav.nav-bar {
   background: #10283A;
   padding: 10px 0;
 }
-/* line 16, ../sass/_variables.scss */
+/* line 17, ../sass/_variables.scss */
 nav.nav-bar {
   *zoom: 1;
 }
-/* line 19, ../sass/_variables.scss */
+/* line 20, ../sass/_variables.scss */
 nav.nav-bar:before, nav.nav-bar:after {
   content: "";
   display: table;
 }
-/* line 24, ../sass/_variables.scss */
+/* line 25, ../sass/_variables.scss */
 nav.nav-bar:after {
   clear: both;
 }
@@ -537,16 +537,16 @@ nav.nav-bar .nav-bar-wrap a {
 .header-wrap {
   padding: 5px 10px;
 }
-/* line 16, ../sass/_variables.scss */
+/* line 17, ../sass/_variables.scss */
 .header-wrap {
   *zoom: 1;
 }
-/* line 19, ../sass/_variables.scss */
+/* line 20, ../sass/_variables.scss */
 .header-wrap:before, .header-wrap:after {
   content: "";
   display: table;
 }
-/* line 24, ../sass/_variables.scss */
+/* line 25, ../sass/_variables.scss */
 .header-wrap:after {
   clear: both;
 }
@@ -560,16 +560,16 @@ nav.nav-bar .nav-bar-wrap a {
   width: 100%;
   display: block;
 }
-/* line 16, ../sass/_variables.scss */
+/* line 17, ../sass/_variables.scss */
 .logo-title {
   *zoom: 1;
 }
-/* line 19, ../sass/_variables.scss */
+/* line 20, ../sass/_variables.scss */
 .logo-title:before, .logo-title:after {
   content: "";
   display: table;
 }
-/* line 24, ../sass/_variables.scss */
+/* line 25, ../sass/_variables.scss */
 .logo-title:after {
   clear: both;
 }
@@ -615,16 +615,16 @@ nav.main-nav {
   display: block;
   width: 100%;
 }
-/* line 16, ../sass/_variables.scss */
+/* line 17, ../sass/_variables.scss */
 nav.main-nav {
   *zoom: 1;
 }
-/* line 19, ../sass/_variables.scss */
+/* line 20, ../sass/_variables.scss */
 nav.main-nav:before, nav.main-nav:after {
   content: "";
   display: table;
 }
-/* line 24, ../sass/_variables.scss */
+/* line 25, ../sass/_variables.scss */
 nav.main-nav:after {
   clear: both;
 }
@@ -661,49 +661,50 @@ nav.main-nav ul li a {
     margin: 0 auto;
     max-width: 800px;
     padding-bottom: 20px;
+    min-width: 768px;
   }
 
-  /* line 109, ../sass/_styles.scss */
+  /* line 110, ../sass/_styles.scss */
   .logo-title {
     float: left;
     width: 56%;
     margin: 45px 0 0;
   }
-  /* line 113, ../sass/_styles.scss */
+  /* line 114, ../sass/_styles.scss */
   .logo-title h1 {
     width: auto;
     font-size: 45px;
     margin: 0 10px;
   }
 
-  /* line 119, ../sass/_styles.scss */
+  /* line 120, ../sass/_styles.scss */
   .menu-icon {
     display: none;
   }
 
-  /* line 122, ../sass/_styles.scss */
+  /* line 123, ../sass/_styles.scss */
   nav.main-nav ul {
     float: right;
     width: 222px;
   }
-  /* line 125, ../sass/_styles.scss */
+  /* line 126, ../sass/_styles.scss */
   nav.main-nav ul li {
     font-size: 22px;
     list-style: none;
     line-height: 33px;
   }
-  /* line 129, ../sass/_styles.scss */
+  /* line 130, ../sass/_styles.scss */
   nav.main-nav ul li a {
     text-decoration: none;
     color: #10283A;
     font-weight: 600;
   }
-  /* line 135, ../sass/_styles.scss */
+  /* line 136, ../sass/_styles.scss */
   nav.main-nav ul .mobile-only {
     display: none;
   }
 
-  /* line 139, ../sass/_styles.scss */
+  /* line 140, ../sass/_styles.scss */
   .header-wrap,
   .nav-bar-wrap {
     max-width: 800px;
@@ -712,24 +713,24 @@ nav.main-nav ul li a {
 }
 /* Testimonials
    ========================================================================== */
-/* line 149, ../sass/_styles.scss */
+/* line 150, ../sass/_styles.scss */
 section.testimonial {
   background: #3DC4AA;
 }
-/* line 151, ../sass/_styles.scss */
+/* line 152, ../sass/_styles.scss */
 section.testimonial .testimonial-wrap {
   width: 86%;
   margin: 0 7%;
 }
-/* line 155, ../sass/_styles.scss */
+/* line 156, ../sass/_styles.scss */
 section.testimonial img {
   width: 100%;
 }
-/* line 158, ../sass/_styles.scss */
+/* line 159, ../sass/_styles.scss */
 section.testimonial img.desktop-only {
   display: none;
 }
-/* line 161, ../sass/_styles.scss */
+/* line 162, ../sass/_styles.scss */
 section.testimonial .testimonial-text {
   background: #10283A;
   color: #fff;
@@ -737,40 +738,39 @@ section.testimonial .testimonial-text {
   padding: 28px 10px;
   text-align: center;
 }
-/* line 167, ../sass/_styles.scss */
+/* line 168, ../sass/_styles.scss */
 section.testimonial .testimonial-text .quote {
   font-size: 18px;
   margin-bottom: 20px;
 }
-/* line 171, ../sass/_styles.scss */
+/* line 172, ../sass/_styles.scss */
 section.testimonial .testimonial-text .name {
   font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 178, ../sass/_styles.scss */
+  /* line 179, ../sass/_styles.scss */
   section.testimonial {
     position: relative;
     height: 192px;
   }
-  /* line 16, ../sass/_variables.scss */
+  /* line 17, ../sass/_variables.scss */
   section.testimonial {
     *zoom: 1;
   }
-  /* line 19, ../sass/_variables.scss */
+  /* line 20, ../sass/_variables.scss */
   section.testimonial:before, section.testimonial:after {
     content: "";
     display: table;
   }
-  /* line 24, ../sass/_variables.scss */
+  /* line 25, ../sass/_variables.scss */
   section.testimonial:after {
     clear: both;
   }
-  /* line 182, ../sass/_styles.scss */
+  /* line 183, ../sass/_styles.scss */
   section.testimonial .testimonial-wrap {
-    max-width: 700px;
+    width: 700px;
     margin: 0 auto;
-    width: 100%;
     padding: 0 5%;
   }
   /* line 188, ../sass/_styles.scss */

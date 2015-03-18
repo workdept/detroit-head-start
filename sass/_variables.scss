@@ -11,6 +11,7 @@
    ========================================================================== */
 $site-max-width: 800px;
 $site-text-max-width: 600px;
+$site-min-width: 768px;
 
 @mixin clearfix-micro {
     & {
