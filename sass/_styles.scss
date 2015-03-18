@@ -37,6 +37,8 @@ nav.nav-bar {
 }
 
 .logo-title {
+    width:100%;
+    display: block;
     @include clearfix-micro;
     img, h1 {
         float: left;
