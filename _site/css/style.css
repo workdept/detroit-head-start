@@ -59,6 +59,10 @@ iframe {
   -moz-border-radius: 5px;
   border-radius: 5px;
 }
+/* line 52, ../sass/_elements.scss */
+.button:hover {
+  background: #011423;
+}
 
 /* ==========================================================================
    VARIABLES
