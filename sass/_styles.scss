@@ -12,7 +12,7 @@ header {
 nav.nav-bar {
     display: none;
     background: #10283A;
-    padding: 10px 0;
+    padding: 10px 0 12px;
     @include clearfix-micro;
     .nav-bar-wrap {
         margin: 0 auto;
@@ -47,6 +47,7 @@ nav.nav-bar {
         color: #10283A;
         margin: 10px;
         width: 50%;
+        line-height: 90%;
     }
 }
 
@@ -91,6 +92,10 @@ nav.main-nav {
                 text-decoration: none;
                 color: #10283A;
                 font-weight: 600;
+
+               &:hover{
+                color:rgb(0, 0, 238);
+               } 
             }
         }
     }
@@ -256,7 +261,7 @@ section.testimonial {
             }
         }
         tr:nth-child(1) td {
-            font-size: 18px;
+            font-size: 16px;
             text-align: left;
             font-weight: 600;
             padding-left: 10px;

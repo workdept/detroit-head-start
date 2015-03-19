@@ -28,6 +28,18 @@ ul {
     }
 }
 
+a:hover{
+    text-decoration: none;
+}
+
 iframe {
     width: 100% !important;
+}
+
+.button{
+        border: none;
+        color: #fff;
+        padding: 10px 20px;
+        width: auto;
+        background: #2C3E50;
 }

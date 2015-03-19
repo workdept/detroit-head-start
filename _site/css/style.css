@@ -36,8 +36,22 @@ ul.check-box i {
 }
 
 /* line 31, ../sass/_elements.scss */
+a:hover {
+  text-decoration: none;
+}
+
+/* line 35, ../sass/_elements.scss */
 iframe {
   width: 100% !important;
+}
+
+/* line 39, ../sass/_elements.scss */
+.button {
+  border: none;
+  color: #fff;
+  padding: 10px 20px;
+  width: auto;
+  background: #2C3E50;
 }
 
 /* ==========================================================================
@@ -504,7 +518,7 @@ header {
 nav.nav-bar {
   display: none;
   background: #10283A;
-  padding: 10px 0;
+  padding: 10px 0 12px;
 }
 /* line 17, ../sass/_variables.scss */
 nav.nav-bar {
@@ -582,9 +596,10 @@ nav.nav-bar .nav-bar-wrap a {
   color: #10283A;
   margin: 10px;
   width: 50%;
+  line-height: 90%;
 }
 
-/* line 53, ../sass/_styles.scss */
+/* line 54, ../sass/_styles.scss */
 .menu-icon {
   background: #2C3E50;
   border-radius: 6px;
@@ -598,19 +613,19 @@ nav.nav-bar .nav-bar-wrap a {
   text-align: center;
   text-decoration: none;
 }
-/* line 65, ../sass/_styles.scss */
+/* line 66, ../sass/_styles.scss */
 .menu-icon span {
   display: block;
   color: #fff;
   text-transform: uppercase;
   text-decoration: none;
 }
-/* line 71, ../sass/_styles.scss */
+/* line 72, ../sass/_styles.scss */
 .menu-icon i {
   color: #fff;
 }
 
-/* line 76, ../sass/_styles.scss */
+/* line 77, ../sass/_styles.scss */
 nav.main-nav {
   display: block;
   width: 100%;
@@ -628,35 +643,39 @@ nav.main-nav:before, nav.main-nav:after {
 nav.main-nav:after {
   clear: both;
 }
-/* line 80, ../sass/_styles.scss */
+/* line 81, ../sass/_styles.scss */
 nav.main-nav ul {
   width: 100%;
   display: none;
   padding: 0 10px;
   margin: 0;
 }
-/* line 85, ../sass/_styles.scss */
+/* line 86, ../sass/_styles.scss */
 nav.main-nav ul li {
   font-size: 22px;
   list-style: none;
   line-height: 33px;
   padding: 0;
 }
-/* line 90, ../sass/_styles.scss */
+/* line 91, ../sass/_styles.scss */
 nav.main-nav ul li a {
   text-decoration: none;
   color: #10283A;
   font-weight: 600;
 }
+/* line 96, ../sass/_styles.scss */
+nav.main-nav ul li a:hover {
+  color: #0000ee;
+}
 
 @media screen and (min-width: 768px) {
-  /* line 100, ../sass/_styles.scss */
+  /* line 105, ../sass/_styles.scss */
   nav.nav-bar,
   nav.main-nav ul {
     display: block;
   }
 
-  /* line 104, ../sass/_styles.scss */
+  /* line 109, ../sass/_styles.scss */
   .header-wrap {
     margin: 0 auto;
     max-width: 800px;
@@ -664,47 +683,47 @@ nav.main-nav ul li a {
     min-width: 768px;
   }
 
-  /* line 110, ../sass/_styles.scss */
+  /* line 115, ../sass/_styles.scss */
   .logo-title {
     float: left;
     width: 56%;
     margin: 45px 0 0;
   }
-  /* line 114, ../sass/_styles.scss */
+  /* line 119, ../sass/_styles.scss */
   .logo-title h1 {
     width: auto;
     font-size: 45px;
     margin: 0 10px;
   }
 
-  /* line 120, ../sass/_styles.scss */
+  /* line 125, ../sass/_styles.scss */
   .menu-icon {
     display: none;
   }
 
-  /* line 123, ../sass/_styles.scss */
+  /* line 128, ../sass/_styles.scss */
   nav.main-nav ul {
     float: right;
     width: 222px;
   }
-  /* line 126, ../sass/_styles.scss */
+  /* line 131, ../sass/_styles.scss */
   nav.main-nav ul li {
     font-size: 22px;
     list-style: none;
     line-height: 33px;
   }
-  /* line 130, ../sass/_styles.scss */
+  /* line 135, ../sass/_styles.scss */
   nav.main-nav ul li a {
     text-decoration: none;
     color: #10283A;
     font-weight: 600;
   }
-  /* line 136, ../sass/_styles.scss */
+  /* line 141, ../sass/_styles.scss */
   nav.main-nav ul .mobile-only {
     display: none;
   }
 
-  /* line 140, ../sass/_styles.scss */
+  /* line 145, ../sass/_styles.scss */
   .header-wrap,
   .nav-bar-wrap {
     max-width: 800px;
@@ -713,24 +732,24 @@ nav.main-nav ul li a {
 }
 /* Testimonials
    ========================================================================== */
-/* line 150, ../sass/_styles.scss */
+/* line 155, ../sass/_styles.scss */
 section.testimonial {
   background: #3DC4AA;
 }
-/* line 152, ../sass/_styles.scss */
+/* line 157, ../sass/_styles.scss */
 section.testimonial .testimonial-wrap {
   width: 86%;
   margin: 0 7%;
 }
-/* line 156, ../sass/_styles.scss */
+/* line 161, ../sass/_styles.scss */
 section.testimonial img {
   width: 100%;
 }
-/* line 159, ../sass/_styles.scss */
+/* line 164, ../sass/_styles.scss */
 section.testimonial img.desktop-only {
   display: none;
 }
-/* line 162, ../sass/_styles.scss */
+/* line 167, ../sass/_styles.scss */
 section.testimonial .testimonial-text {
   background: #10283A;
   color: #fff;
@@ -738,18 +757,18 @@ section.testimonial .testimonial-text {
   padding: 28px 10px;
   text-align: center;
 }
-/* line 168, ../sass/_styles.scss */
+/* line 173, ../sass/_styles.scss */
 section.testimonial .testimonial-text .quote {
   font-size: 18px;
   margin-bottom: 20px;
 }
-/* line 172, ../sass/_styles.scss */
+/* line 177, ../sass/_styles.scss */
 section.testimonial .testimonial-text .name {
   font-size: 16px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 179, ../sass/_styles.scss */
+  /* line 184, ../sass/_styles.scss */
   section.testimonial {
     position: relative;
     height: 192px;
@@ -767,37 +786,37 @@ section.testimonial .testimonial-text .name {
   section.testimonial:after {
     clear: both;
   }
-  /* line 183, ../sass/_styles.scss */
+  /* line 188, ../sass/_styles.scss */
   section.testimonial .testimonial-wrap {
     width: 700px;
     margin: 0 auto;
     padding: 0 5%;
   }
-  /* line 188, ../sass/_styles.scss */
+  /* line 193, ../sass/_styles.scss */
   section.testimonial .testimonial-text {
     width: 455px;
     float: left;
     background: url("/images/blueRectangleTri.png") center center no-repeat;
     height: 154px;
   }
-  /* line 193, ../sass/_styles.scss */
+  /* line 198, ../sass/_styles.scss */
   section.testimonial .testimonial-text .quote {
     width: 413px;
     margin: 20px 10px;
   }
-  /* line 197, ../sass/_styles.scss */
+  /* line 202, ../sass/_styles.scss */
   section.testimonial .testimonial-text .name {
     width: 413px;
   }
-  /* line 201, ../sass/_styles.scss */
+  /* line 206, ../sass/_styles.scss */
   section.testimonial img.desktop-only {
     display: block;
   }
-  /* line 204, ../sass/_styles.scss */
+  /* line 209, ../sass/_styles.scss */
   section.testimonial img.mobile-only {
     display: none;
   }
-  /* line 207, ../sass/_styles.scss */
+  /* line 212, ../sass/_styles.scss */
   section.testimonial .photo {
     width: 212px;
     float: left;
@@ -806,73 +825,73 @@ section.testimonial .testimonial-text .name {
 }
 /* Main
    ========================================================================== */
-/* line 220, ../sass/_styles.scss */
+/* line 225, ../sass/_styles.scss */
 .main {
   background: #E6E7E8;
 }
-/* line 222, ../sass/_styles.scss */
+/* line 227, ../sass/_styles.scss */
 .main.blue {
   background: #51B8F2;
 }
-/* line 225, ../sass/_styles.scss */
+/* line 230, ../sass/_styles.scss */
 .main.green {
   background: #5FE093;
 }
-/* line 228, ../sass/_styles.scss */
+/* line 233, ../sass/_styles.scss */
 .main.yellow {
   background: #F1C40F;
 }
-/* line 231, ../sass/_styles.scss */
+/* line 236, ../sass/_styles.scss */
 .main.light-green {
   background: #5FE093;
 }
-/* line 234, ../sass/_styles.scss */
+/* line 239, ../sass/_styles.scss */
 .main .main-wrap {
   margin: 0 7%;
   padding: 20px 0;
 }
-/* line 238, ../sass/_styles.scss */
+/* line 243, ../sass/_styles.scss */
 .main table.family-size {
   max-width: 500px;
   margin: 0 auto 45px;
 }
-/* line 241, ../sass/_styles.scss */
+/* line 246, ../sass/_styles.scss */
 .main table.family-size td:nth-child(1) {
   border-right: solid 1px #fff;
   padding-right: 10px;
   width: 40%;
 }
 @media screen and (min-width: 768px) {
-  /* line 241, ../sass/_styles.scss */
+  /* line 246, ../sass/_styles.scss */
   .main table.family-size td:nth-child(1) {
     width: 60%;
     text-align: left;
   }
 }
-/* line 250, ../sass/_styles.scss */
+/* line 255, ../sass/_styles.scss */
 .main table.family-size td {
   border-bottom: solid 1px #fff;
   text-align: right;
   font-size: 32px;
 }
-/* line 254, ../sass/_styles.scss */
+/* line 259, ../sass/_styles.scss */
 .main table.family-size td p {
   margin: 11px 0;
 }
-/* line 258, ../sass/_styles.scss */
+/* line 263, ../sass/_styles.scss */
 .main table.family-size tr:nth-child(1) td {
-  font-size: 18px;
+  font-size: 16px;
   text-align: left;
   font-weight: 600;
   padding-left: 10px;
 }
-/* line 264, ../sass/_styles.scss */
+/* line 269, ../sass/_styles.scss */
 .main table.family-size i {
   margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 271, ../sass/_styles.scss */
+  /* line 276, ../sass/_styles.scss */
   .main .main-wrap {
     margin: 0 auto;
     max-width: 600px;
@@ -881,20 +900,20 @@ section.testimonial .testimonial-text .name {
 }
 /* Contact Form
    ========================================================================== */
-/* line 281, ../sass/_styles.scss */
+/* line 286, ../sass/_styles.scss */
 form {
   max-width: 550px;
   margin: 35px 0;
 }
-/* line 284, ../sass/_styles.scss */
+/* line 289, ../sass/_styles.scss */
 form .form-group {
   margin: 10px 0;
 }
-/* line 287, ../sass/_styles.scss */
+/* line 292, ../sass/_styles.scss */
 form label {
   display: block;
 }
-/* line 290, ../sass/_styles.scss */
+/* line 295, ../sass/_styles.scss */
 form input, form textarea {
   width: 100%;
   -webkit-border-radius: 5px;
@@ -904,7 +923,7 @@ form input, form textarea {
   border-width: 1px;
   margin: 5px 0;
 }
-/* line 299, ../sass/_styles.scss */
+/* line 304, ../sass/_styles.scss */
 form input.submit {
   background: #2C3E50;
   border: none;
@@ -913,7 +932,7 @@ form input.submit {
   width: auto;
 }
 @media screen and (min-width: 768px) {
-  /* line 307, ../sass/_styles.scss */
+  /* line 312, ../sass/_styles.scss */
   form textarea {
     height: 150px;
   }
