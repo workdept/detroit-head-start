@@ -258,17 +258,16 @@ section.testimonial {
         }
         td {
             border-bottom: solid 1px #fff;
-            text-align: right;
+            text-align: left;
             font-size: 32px;
+            padding-left: 10px;
             p {
                 margin: 11px 0;
             }
         }
         tr:nth-child(1) td {
             font-size: 16px;
-            text-align: left;
             font-weight: 600;
-            padding-left: 10px;
         }
         i {
             margin-right: 5px;

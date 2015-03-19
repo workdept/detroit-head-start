@@ -885,27 +885,26 @@ section.testimonial .testimonial-text .name {
 /* line 259, ../sass/_styles.scss */
 .main table.family-size td {
   border-bottom: solid 1px #fff;
-  text-align: right;
+  text-align: left;
   font-size: 32px;
+  padding-left: 10px;
 }
-/* line 263, ../sass/_styles.scss */
+/* line 264, ../sass/_styles.scss */
 .main table.family-size td p {
   margin: 11px 0;
 }
-/* line 267, ../sass/_styles.scss */
+/* line 268, ../sass/_styles.scss */
 .main table.family-size tr:nth-child(1) td {
   font-size: 16px;
-  text-align: left;
   font-weight: 600;
-  padding-left: 10px;
 }
-/* line 273, ../sass/_styles.scss */
+/* line 272, ../sass/_styles.scss */
 .main table.family-size i {
   margin-right: 5px;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 280, ../sass/_styles.scss */
+  /* line 279, ../sass/_styles.scss */
   .main .main-wrap {
     margin: 0 auto;
     max-width: 600px;
@@ -914,20 +913,20 @@ section.testimonial .testimonial-text .name {
 }
 /* Contact Form
    ========================================================================== */
-/* line 290, ../sass/_styles.scss */
+/* line 289, ../sass/_styles.scss */
 form {
   max-width: 550px;
   margin: 35px 0;
 }
-/* line 293, ../sass/_styles.scss */
+/* line 292, ../sass/_styles.scss */
 form .form-group {
   margin: 10px 0;
 }
-/* line 296, ../sass/_styles.scss */
+/* line 295, ../sass/_styles.scss */
 form label {
   display: block;
 }
-/* line 299, ../sass/_styles.scss */
+/* line 298, ../sass/_styles.scss */
 form input, form textarea {
   width: 100%;
   -webkit-border-radius: 5px;
@@ -938,7 +937,7 @@ form input, form textarea {
   margin: 5px 0;
 }
 @media screen and (min-width: 768px) {
-  /* line 312, ../sass/_styles.scss */
+  /* line 311, ../sass/_styles.scss */
   form textarea {
     height: 150px;
   }
