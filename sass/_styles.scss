@@ -136,6 +136,10 @@ nav.main-nav {
                 text-decoration: none;
                 color: #10283A;
                 font-weight: 600;
+
+                &:hover{
+                color:rgb(0, 0, 238);
+               } 
             }
         }
         .mobile-only {
@@ -302,11 +306,7 @@ form {
         margin: 5px 0;
     }
     input.submit {
-        background: #2C3E50;
-        border: none;
-        color: #fff;
-        padding: 10px 20px;
-        width: auto;
+
     }
     @include breakpoint(not-small) {
         textarea {
