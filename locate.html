@@ -1,6 +1,38 @@
 ---
 layout: default
+
+testimonial-1:
+  name: Ben Garcia, father of 1
+  image: /images/testimonials/Ben_Garcia.png
+  image-mobile: /images/testimonials/Ben_Garcia-M.png
+  quote: “The teachers and family services are awesome! I am soaking it all up as much as I can.”
+
+testimonial-2:
+  name: Roxanne Campbell, Head Start Project Director and former Head Start Parent
+  image: /images/testimonials/Roxanne_Campbell.png
+  image-mobile: /images/testimonials/Roxanne_Campbell_M.png
+  quote: “I truly believe we can make a difference in the lives of the children and families we serve.” 
 ---
+
+<section class="testimonial">
+    <div class="testimonial-wrap">
+        <div class="photo"><img class="mobile-only" src=
+        "{{site.url}}{{page.testimonial-1.image-mobile}}"></div>
+
+        <div class="testimonial-text">
+            <div class="quote">
+                <span>{{ page.testimonial-1.quote }}</span>
+            </div>
+
+            <div class="name">
+                <span>{{ page.testimonial-1.name }}</span>
+            </div>
+        </div>
+
+        <div class="photo"><img class="desktop-only" src=
+        "{{site.url}}{{page.testimonial-1.image}}"></div>
+    </div>
+</section>
 
 <main>
     <div class="main">
@@ -16,3 +48,23 @@ layout: default
         </div>
     </div>
 </main>
+
+<section class="testimonial">
+    <div class="testimonial-wrap">
+        <div class="photo"><img class="mobile-only" src=
+        "{{site.url}}{{page.testimonial-2.image-mobile}}"></div>
+
+        <div class="testimonial-text">
+            <div class="quote">
+                <span>{{ page.testimonial-2.quote }}</span>
+            </div>
+
+            <div class="name">
+                <span>{{ page.testimonial-2.name }}</span>
+            </div>
+        </div>
+
+        <div class="photo"><img class="desktop-only" src=
+        "{{site.url}}{{page.testimonial-2.image}}"></div>
+    </div>
+</section>
