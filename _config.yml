@@ -15,10 +15,6 @@ name: "Detroit Head Start"
 # ============================================================
 description: "Get free pre-school and child care in Detroit! Head Start serves families with kids from birth to 5 years old. Find a Detroit location near you."
 
-# Owner (organization or individual) of site content
-# ============================================================
-author: "The Work Department"
-
 # Change this to your production URL
 # ============================================================
 url: http://headstart.theworkdept.com
