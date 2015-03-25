@@ -947,3 +947,17 @@ form input, form textarea {
     height: 150px;
   }
 }
+
+/* Back to top link
+   ========================================================================== */
+/* line 324, ../sass/_styles.scss */
+.backtotop {
+  text-align: right;
+}
+
+@media screen and (min-width: 768px) {
+  /* line 329, ../sass/_styles.scss */
+  .backtotop {
+    display: none;
+  }
+}

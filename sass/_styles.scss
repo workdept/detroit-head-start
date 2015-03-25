@@ -317,3 +317,16 @@ form {
         }
     }
 }
+
+/* Back to top link
+   ========================================================================== */
+
+.backtotop{
+    text-align: right;
+}
+
+@include breakpoint(not-small) {
+    .backtotop{
+        display: none;
+    }
+}
