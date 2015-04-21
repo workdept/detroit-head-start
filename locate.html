@@ -13,58 +13,34 @@ testimonial-2:
   image-mobile: /images/testimonials/Roxanne_Campbell_M.jpg
   quote: “I truly believe we can make a difference in the lives of the children and families we serve.” 
 ---
-
-<section class="testimonial">
-    <div class="testimonial-wrap">
-        <div class="photo"><img class="mobile-only" src=
-        "{{site.url}}{{page.testimonial-1.image-mobile}}"></div>
-
-        <div class="testimonial-text">
-            <div class="quote">
-                <span>{{ page.testimonial-1.quote }}</span>
-            </div>
-
-            <div class="name">
-                <span>{{ page.testimonial-1.name }}</span>
-            </div>
-        </div>
-
-        <div class="photo"><img class="desktop-only" src=
-        "{{site.url}}{{page.testimonial-1.image}}"></div>
-    </div>
-</section>
-
 <main>
     <div class="main">
         <div class='main-wrap'>
            <p>Use the tool below to find a Head Start center near you.</p>
-            <iframe frameborder="1" height="600px" marginheight="0px"
+           <p>This agency locator tool will return as many potential Head Start learning options as possible, close to you. Any Detroit Head Start provider on the list will be able to refer you to a center, within your geographic area, that you're eligible to attend, primarily based on your home zip code.
+           </p>
+        </div>
+    </div>     
+<div class="main">
+    <div class='main-wrap desktop'>
+            <iframe frameborder="1" height="810px" marginheight="0px"
+            marginwidth="0px" scrolling="no" src=
+            "http://sandbox.matrixpath.com/locator/"
+            style="border:0px #FFFFFF none;" width="857px"></iframe>
+        </div>
+    <div class='main-wrap mobile'>
+            <iframe frameborder="1" height="900px" marginheight="0px"
             marginwidth="0px" scrolling="yes" src=
             "http://sandbox.matrixpath.com/locator/mobile/search.html"
-            style="border:0px #FFFFFF none;" width="600px"></iframe>
+            style="border:0px #FFFFFF none;" width="857px"></iframe>
+        </div>
+    </div>
+
+    <div class="main">
+        <div class='main-wrap'>
         <p>You may also call <a href="tel:211">211</a> to find a center in your neighborhood.</p>
         <p>Location tool provided by <a href="http://www.ardentcause.com/" target="_blank">ardentCause L3C.</a></p>
         <p>&nbsp;</p>
         </div>
     </div>
 </main>
-
-<section class="testimonial">
-    <div class="testimonial-wrap">
-        <div class="photo"><img class="mobile-only" src=
-        "{{site.url}}{{page.testimonial-2.image-mobile}}"></div>
-
-        <div class="testimonial-text">
-            <div class="quote">
-                <span>{{ page.testimonial-2.quote }}</span>
-            </div>
-
-            <div class="name">
-                <span>{{ page.testimonial-2.name }}</span>
-            </div>
-        </div>
-
-        <div class="photo"><img class="desktop-only" src=
-        "{{site.url}}{{page.testimonial-2.image}}"></div>
-    </div>
-</section>

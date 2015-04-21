@@ -246,7 +246,7 @@ section.testimonial {
     }
     .main-wrap {
         margin: 0 7%;
-        padding: 20px 0;
+        padding: 20px 0; 
     }
     table.family-size {
         max-width: $site-text-max-width - 100px;
@@ -329,4 +329,30 @@ form {
     .backtotop{
         display: none;
     }
+}
+
+/* Locator Tool
+   ========================================================================== */
+
+iframe {
+    width: 100% !important;
+}
+
+.main-wrap.desktop{
+    max-width:860px;
+    display: none;
+
+    iframe {
+        width: 857px !important;
+    }
+}
+
+@media screen and (min-width:900px){
+   .main-wrap.desktop{
+    display: block;
+   } 
+
+   .main-wrap.mobile{
+    display: none;
+   }
 }
